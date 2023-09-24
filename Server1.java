@@ -1,14 +1,9 @@
-//This is vartalap server 2.0
-//Much enhanced then previous code it uses some new concepts like queue(which I stored in L34), threadsafe queue etc.
-//It is actually concurrent server framework - which can be used to make different applications like a chat server, dropbox like application etc.
-
 
 package L32;
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
-//import L33.Server1;
 
 public class Server1 {
    public static MessageQueue<String> q = new MessageQueue<>();
